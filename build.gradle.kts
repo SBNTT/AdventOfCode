@@ -17,3 +17,6 @@ tasks.test {
 kotlin {
     jvmToolchain(8)
 }
+dependencies {
+    implementation(kotlin("reflect"))
+}
